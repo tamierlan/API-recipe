@@ -1,0 +1,45 @@
+.recipe {
+  border-radius: 10px;
+  box-shadow: 0px 5px 20px rgb(71, 71, 71);
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  background: white;
+  align-items: center;
+  width: 400px;
+  min-width: 100px;
+}
+
+
+.tema {
+  text-align: center;
+  color: #ff3300;
+}
+
+
+.image {
+  width: 200px;
+  height: 200px;
+  margin-bottom: 25px;
+  border-radius: 10px;
+}
+
+@media screen and (max-width: 550px) {
+  .image {
+    height: 120px;
+  }
+}
+
+
+@media screen and (max-width: 420px) {
+  .tema {
+    text-align: center;
+    color: #ff3300;
+    margin-bottom: 0;
+  }
+  .image {
+    height: 100px;
+    margin-bottom:
+  }
+}
